@@ -20,8 +20,11 @@ import plotly.graph_objects as go
 
 @st.cache_resource
 def load_data():
+    from pandasai import PandasAI
+from pandasai.llm.openai import OpenAI
     data = pd.read_csv("../joy_data/hour.csv")
-    return data
+  pandas_ai.run(
+    data)
 
 
 data = load_data()
