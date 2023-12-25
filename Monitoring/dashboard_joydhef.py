@@ -8,7 +8,6 @@
 # Created       : 19 Desember 2023                           
 
 import pandas as pd
-import seaborn as snst
 import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
