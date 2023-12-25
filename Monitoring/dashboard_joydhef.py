@@ -8,9 +8,7 @@
 # Created       : 19 Desember 2023                           
 
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import matplotlib.pyplot as plt
+import seaborn as snst
 import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
