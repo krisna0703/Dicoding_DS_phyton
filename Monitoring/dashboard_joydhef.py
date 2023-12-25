@@ -20,7 +20,7 @@ import plotly.graph_objects as go
 
 @st.cache_resource
 def load_data():
-    data = pd.read_csv("../Monitoring/hour.csv")
+    data = pd.read_csv("https://github.com/krisna0703/Dicoding_DS_phyton/tree/main/joy_data/hour.csv")
     return data
 
 
