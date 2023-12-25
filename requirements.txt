@@ -3,4 +3,4 @@ plotly==5.18.0
 streamlit==1.29.0
 warnings==3.12.1
 numpy==1.26.2
-pip version 22.0.3
+pip==23.3.2
