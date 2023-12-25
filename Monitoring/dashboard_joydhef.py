@@ -58,6 +58,8 @@ if st.sidebar.checkbox("Show Dataset"):
 if st.sidebar.checkbox("Show Summary Statistics"):
     st.subheader("Summary Statistics")
     st.write(data.describe())
+# Show dataset source
+st.sidebar.markdown("[Download Dataset](https://link-to-your-dataset)")
 
 st.sidebar.markdown('**Weather:**')
 st.sidebar.markdown('1: Clear, Few clouds, Partly cloudy, Partly cloudy')
