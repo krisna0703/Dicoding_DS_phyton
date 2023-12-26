@@ -10,17 +10,15 @@
 # Import Library
 import streamlit as st
 import pandas as pd
-#import plotly.express as px
+import plotly.express as px
 
 # ==============================
 # LOAD DATA
 # ==============================
 @st.cache_resource
-def load_data(url):
-    data = pd.read_csv(url)
+def load_data():
+    data = pd.read_csv("hour.csv", error_bad_lines=False)
     return data
-data = load_data("https://github.com/krisna0703/Dicoding_DS_phyton/tree/main/Monitoring/hour.csv")
-
 data = load_data()
 
 
