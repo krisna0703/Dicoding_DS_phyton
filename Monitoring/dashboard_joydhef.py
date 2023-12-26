@@ -15,16 +15,13 @@ import plotly.express as px
 # ==============================
 # LOAD DATA
 # ==============================
-
-@st.cache_data  # 👈 Add the caching decorator
+@st.cache_resource
 def load_data(url):
-    df = pd.read_csv(url)
-    return df
+    data = pd.read_csv(url)
+    return data
+data = load_data("https://github.com/krisna0703/Dicoding_DS_phyton/tree/main/Monitoring/hour.csv")
 
-df = load_data("https://github.com/krisna0703/Dicoding_DS_phyton/tree/main/Monitoring/hour.csv")
-st.dataframe(df)
-
-st.button("Rerun")
+data = load_data()
 
 
 # ==============================
