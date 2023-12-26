@@ -3,6 +3,9 @@
 
 Ini adalah tugas akhir dari Dicoding dalam mata kuliah "Belajar Analisis Data Dengan Python" untuk membuat analisis dan membuat dashboard dari dataset bike sharing. Pada file Proyek_Analisis_Data, saya melampirkan cara saya melakukan analisis dari Data Wrangling, Exploratory Data Analysis, dan Data Visualization. Selain itu, saya juga membuat dashboard menggunakan streamlit, dan Anda dapat memeriksanya dengan mengklik tautan di sidebar kanan atau di [here](https://dicodingdsphyton-ydvwjgiuexthfpuav44tgk.streamlit.app/)
 
+Or
+Streamlit Cloud : [Joydhef Bike Dashboard](https://dicodingdsphyton-ydvwjgiuexthfpuav44tgk.streamlit.app/)
+
 Untuk informasi lebih lanjut, seperti latar belakang dataset ini, karakteristik dataset, struktur file, dan lainnya, Anda dapat melihat `Readme` file. Jadi di sini, saya tidak akan menjelaskannya lebih jauh.
 
 ## 1. File Structures
