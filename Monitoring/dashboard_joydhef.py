@@ -21,7 +21,7 @@ def load_data(url):
     df = pd.read_csv(url)
     return df
 
-df = load_data("https://github.com/plotly/datasets/raw/master/uber-rides-data1.csv")
+df = load_data("https://github.com/krisna0703/Dicoding_DS_phyton/tree/main/Monitoring/hour.csv")
 st.dataframe(df)
 
 st.button("Rerun")
